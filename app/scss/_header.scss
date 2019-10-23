@@ -16,9 +16,6 @@
     font-weight: 800;
     font-size: 200px;
     line-height: 156px;
-    text-transform: uppercase;
-
-    color: #fff;
 
     opacity: 0.07;
 }
@@ -51,16 +48,14 @@
     height: 100vh;
 
     text-align: center;
-    color: #fff;
 
-    border-right: 1px solid rgba(#fff, .25);
+    border-right: 1px solid rgba($white, .25);
 }
 
 .menu {
     padding-top: 40px;
 
     a {
-        color: #fff;
 
         span {
             display: block;
@@ -72,6 +67,7 @@
             font-size: 12px;
             line-height: 14px;
             letter-spacing: 3px;
+            text-transform: capitalize;
         }
     }
 }
@@ -112,6 +108,7 @@
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 1.05px;
+    text-transform: capitalize;
 
     &::before {
         content: "";
@@ -147,8 +144,6 @@
     bottom: 116px;
 
     text-align: right;
-    text-transform: uppercase;
-    color: #fff;
 }
 
 .slider-item__info-suptitle {
@@ -189,15 +184,13 @@
     right: 125px;
 }
 
-.slider-dots {
+.slider-dotshead {
     position: absolute;
     right: 50px;
     bottom: 36px;
 
     max-width: 940px;
     width: 100%;
-
-    color: #fff;
 
     .slick-current {
 
@@ -216,7 +209,7 @@
 
     align-items: center;
 
-    border-top: 4px solid #fff;
+    border-top: 4px solid $white;
 
     &__number {
         font-weight: 800;
@@ -227,6 +220,7 @@
     &__name {
         font-weight: 300;
         line-height: 19px;
+        text-transform: capitalize;
     }
 }
 
