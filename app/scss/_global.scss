@@ -65,6 +65,32 @@ li {
     }
 }
 
+.headline-right {
+    position: relative;
+
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 103px;
+
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 7.33333px;
+
+    opacity: 0.5;
+
+    &::before {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 50%;
+
+        width: 80px;
+        height: 1px;
+
+        background-color: $white;
+    }
+}
+
 .section-title {
 
     h2 {
@@ -111,6 +137,23 @@ li {
     &__head {
         margin: 0;
         padding-right: 10px;
+
+        font-weight: 800;
+        font-size: 40px;
+        
+        span {
+            font-weight: 100;
+        }
+    }
+}
+
+.descr {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 5px;
+    
+    &__head {
+        margin: 0;
 
         font-weight: 800;
         font-size: 40px;

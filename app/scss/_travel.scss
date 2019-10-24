@@ -1,0 +1,114 @@
+
+.travel {
+    padding-top: 160px;
+    padding-bottom: 265px;
+
+    background-image: url(../images/travel/cocktail-bg.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+
+    .slider-arrows {
+        top: 225px;
+
+        opacity: 0.5;
+    }
+}
+
+.travel-slider {
+
+    &__head {
+        min-height: 780px;
+
+        background-position: top left;
+        background-repeat: no-repeat;
+    }
+
+    &__descr {
+        min-height: 320px;
+        margin-top: -230px;
+        padding-top: 160px;
+        padding-left: 132px;
+
+        background-repeat: no-repeat;
+        background-position: right center;
+
+        .descr__head {
+            position: relative;
+
+            padding-right: 78px;
+
+            img {
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+        }
+    }
+
+    &__subtitle {
+        padding-top: 132px;
+        padding-right: 80px;
+
+        text-align: right;
+    }
+
+    &__btn {
+        text-align: center;
+    }
+}
+
+.travel-slider__info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.travel-slider__info-item {
+    position: relative;
+
+    min-height: 200px;
+    margin-bottom: 66px;
+}
+
+.travel-slider_info-title {
+    position: absolute;
+    top: 97px;
+    left: -97px;
+
+    margin: 0;
+    width: 200px;
+    height: 0;
+
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 8px;
+
+    white-space: nowrap;
+    opacity: 0.5;
+    transform: rotate(-90deg);
+}
+
+.travel-slider_info-subtitle {
+    position: relative;
+
+    width: 255px;
+    padding-left: 40px;
+
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 36px;
+
+    span {
+        position: absolute;
+        right: 0;
+        bottom: -8px;
+
+        font-size: 14px;
+        font-weight: 400;
+        text-align: right;
+        line-height: 0;
+        letter-spacing: 5.25px;
+
+        opacity: 0.75;
+    }
+}
